@@ -239,3 +239,26 @@ header nav a span {
 #content article .img embed {
 	margin-top: 30px;
 }
+
+footer {
+	margin-top: 30px;
+	border-top: 1px solid #9E9E9E;
+}
+
+@media only screen and (max-width: 768px) {
+	.openmenuresp {
+		border-top: 1px solid #BDBDBD;
+		border-bottom: 1px solid #BDBDBD;
+		font-family: 'Roboto', sans-serif;
+		color: #9E9E9E;
+	}
+
+	#topside .pages {
+		border-bottom: none;
+	}
+
+	.post_icon {
+		width: 33px !important;
+		height: 33px !important;
+	}
+}
