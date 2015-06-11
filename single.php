@@ -44,7 +44,7 @@ get_header(); ?>
 				
 					the_content(); 
 					wp_link_pages();
-					edit_post_link( __('Edit post', 'metro-creativex'));
+					edit_post_link( __('Edit post', 'materialx'));
 				?>
 				<div class="clearfix"></div>
 				<?php 
