@@ -2,7 +2,7 @@
 /**
  * The Template for displaying all single posts.
  *
- * @package metro-creativex
+ * @package materialx
  */
 get_header(); ?>
 	<?php  while ( have_posts() ) : the_post(); ?>

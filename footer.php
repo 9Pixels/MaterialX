@@ -1,3 +1,10 @@
+<?php
+/**
+ *	The template for displaying the Footer.
+ *
+ *	@package materialx
+ */
+?>
 		<div class="left-sidebar sidebar-mobile">
 			<?php get_sidebar("mobile"); ?>
 		</div>
