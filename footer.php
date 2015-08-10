@@ -2,7 +2,8 @@
 /**
  *	The template for displaying the Footer.
  *
- *	@package materialx
+ *	@package WordPress
+ *	@subpackage MaterialX
  */
 ?>
 		<div class="left-sidebar sidebar-mobile">
