@@ -39,7 +39,7 @@ get_header(); ?>
 				$metro_creativex_posttitle = get_the_title();
 				$metro_creativex_feat_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
 				if(isset($metro_creativex_feat_image[0])):
-					echo '<div class="post_img"><img src='.$metro_creativex_feat_image[0].' alt="'. esc_html( $metro_creativex_posttitle ) .'"></div>';
+					echo '<div class="post_img"><img src='. esc_url( $metro_creativex_feat_image[0] ) .' alt="'. esc_html( $metro_creativex_posttitle ) .'"></div>';
 				endif;	
 			
 				the_content(); 
