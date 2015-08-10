@@ -11,5 +11,3 @@ Icons:
 License:  GNU General Public License v3
 Copyright:  2015 iconmonster - http://iconmonstr.com/license/
 http://iconmonstr.com/magnifier-2-icon/
-
-Images from screenshot are from https://unsplash.com/ distributed under GNU General Public License v3
