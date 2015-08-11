@@ -20,3 +20,8 @@ Icons:
 License:  GNU General Public License v3
 Copyright:  2015 iconmonster - http://iconmonstr.com/license/
 http://iconmonstr.com/magnifier-2-icon/
+
+Fonts:
+License:  Creative Commons Attribution 3.0 License
+Copyright: Christian Robertson - https://www.google.com/fonts/
+https://www.google.com/fonts/#QuickUsePlace:quickUse/Family:Roboto
