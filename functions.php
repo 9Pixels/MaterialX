@@ -6,7 +6,7 @@
 if( !function_exists( 'materialx_theme_setup' ) ) {
 	add_action( 'after_setup_theme', 'materialx_theme_setup' );
 	function materialx_theme_setup() {
-		load_theme_textdomain( 'materialx', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'materialx', esc_url( get_template_directory() ) . '/languages' );
 	}
 }
 
@@ -22,7 +22,7 @@ if( !function_exists( 'materialx_enqueue_styles' ) ) {
 		);
 		wp_register_style( 'google_fonts', add_query_arg( $query_args, "//fonts.googleapis.com/css" ), array(), null );
 
-	    wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css' );
+	    wp_enqueue_style( 'style', esc_url( get_template_directory_uri() ) . '/style.css' );
 	    wp_enqueue_style( 'google_fonts' );
 	}
 }
