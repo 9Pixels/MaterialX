@@ -40,9 +40,10 @@ get_header(); ?>
 				$materialx_feat_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
 				if(isset($materialx_feat_image[0])):
 					echo '<div class="post_img"><img src='. esc_url( $materialx_feat_image[0] ) .' alt="'. esc_attr( $materialx_posttitle ) .'"></div>';
-				endif;	
-			
-				the_content(); 
+				endif;
+
+				the_content();
+
 				wp_link_pages();
 				edit_post_link( __('Edit post', 'materialx'));
 			?>
