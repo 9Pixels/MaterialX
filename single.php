@@ -39,7 +39,7 @@ get_header(); ?>
 				$materialx_posttitle = get_the_title();
 				$materialx_feat_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
 				if(isset($materialx_feat_image[0])):
-					echo '<div class="post_img"><img src='. esc_url( $materialx_feat_image[0] ) .' alt="'. esc_html( $materialx_posttitle ) .'"></div>';
+					echo '<div class="post_img"><img src='. esc_url( $materialx_feat_image[0] ) .' alt="'. esc_attr( $materialx_posttitle ) .'"></div>';
 				endif;	
 			
 				the_content(); 
